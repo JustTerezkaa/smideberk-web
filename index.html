@@ -2,27 +2,52 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>Penzion Šmídeberk</title>
-    <link rel="stylesheet" href="css/style.css" /><!---->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    <header>
-        <a href="index.html"><h1>penzion Šmídeberk</h1></a>
-        <div class="logo">
-            <img src="img/logo.svg" alt="Penzion Šmídeberk" />
+    <header class="header">
+        <div class="header-container">
+            <nav class="header-nav">
+                <h1>
+                    <a href="index.html" class="logo">
+                        <img src="./img/logo.svg" alt=""/>
+                        Penzion Šmídeberk
+                    </a>
+                </h1>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Domů</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="apartman.html" class="nav-link">Apartmány</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="okoli.html" class="nav-link">Okolí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galerie.html" class="nav-link">Fotogalerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kontakt.html" class="nav-link">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <a href="index.html">Domů</a>
-            <a href="apartman.html">Apartmány</a>
-            <a href="okoli.html">Okolí</a>
-            <a href="galerie.html">Fotogalerie</a>
-            <a href="kontakt.html">Kontakt</a>
-        </nav>
     </header>
 
-    <img src="img/penzion.jpg" alt="Penzion v horách" class=""/>
-
     <main>
+        <div class="hero-image">
+          <img src="img/penzion.jpg" alt="Penzion v horách" class=""/>  <!---->
+        </div>
+
         <section class="hero">
             <p>
                 Vítejte.<br>
@@ -33,28 +58,78 @@
             </p>
         </section>
 
-        <section class="apartments">
-            <h2> Nabídka našich pokojů:</h2>
-            <h3>apartmán č.1 - modrý</h3>
-            <p>Náš největší apartmán má dvě ložnice a je určen pro čtyři osoby.</p>
-            <img src="img/apartman1.jpg" alt="apartman1" class=""/>
+        <section class="apartments-section">
+            <h2>Nabídka našich pokojů:</h2>
 
-            <h3>apartmán č.2 - červený</h3>
-            <p>Náš červený apartmán má dvě menší ložnice po dvou oddělených postelích a je určen pro čtyři osoby.</p>
-            <img src="img/apartman2.jpg" alt="apartman2" class=""/>
+            <article class="apartment">
+                <div class="apartment-content">
+                    <div class="apartment-text">
+                        <h3><a href="apartman.html#apartment1">apartmán č.1 - modrý</a></h3>
+                        <p>Náš největší apartmán má dvě ložnice a je určen pro čtyři osoby.</p>
+                    </div>
+                    <div class="apartment-image">
+                        <img src="img/apartman1.jpg" alt="Apartmán 1 - modrý" />
+                    </div>
+                </div>
+            </article>
 
-            <h3>apartmán č.3 - žlutý</h3>
-            <p>Náš nejmenší pokoj má pouze jednu ložnici s manželskou postelí pro dvě osoby.</p>
-            <img src="img/apartman3.jpg" alt="apartman3" class=""/>
+            <article class="apartment">
+                <div class="apartment-content">
+                    <div class="apartment-text">
+                        <h3><a href="apartman.html#apartment2">apartmán č.2 - červený</a></h3>
+                        <p>Náš červený apartmán má dvě menší ložnice po dvou oddělených postelích a je určen pro čtyři osoby.</p>
+                    </div>
+                    <div class="apartment-image">
+                        <img src="img/apartman2.jpg" alt="Apartmán 2 - červený" />
+                    </div>
+                </div>
+            </article>
+
+            <article class="apartment">
+                <div class="apartment-content">
+                    <div class="apartment-text">
+                        <h3><a href="apartman.html#apartment3">apartmán č.3 - žlutý</a></h3>
+                        <p>Náš nejmenší pokoj má pouze jednu ložnici s manželskou postelí pro dvě osoby.</p>
+                    </div>
+                    <div class="apartment-image">
+                        <img src="img/apartman3.jpg" alt="Apartmán 3 - žlutý" />
+                    </div>
+                </div>
+            </article>
         </section>
 
-        <section class="carousel">
+        <section class="carousel-section">
             <h2>Pro zvídavé čtenáře:</h2>
             <div class="carousel-container">
-                <div><a href="carousel/historieChaty.html" class="card">Historie Chaty</a></div>
-                <div><a href="carousel/historieKrusnychHor.html" class="card">Historie Krušných hor</a></div>
-                <div><a href="carousel/bajneBytosti.html" class="card">Bájné bytosti Krušných hor</a></div>
-                <div><a href="carousel/remesla.html" class="card">Krušnohorská řemesla</a></div>
+                <button class="carousel-arrow left" aria-label="Předchozí" onclick="moveCarousel(-1)">&#10094;</button>
+
+                <div class="carousel-track">
+                    <a href="carousel/historieChaty.html" class="carousel-card">
+                        <img src="img/chata.jpg" alt="Historie Chaty" />
+                        <h3>Historie Chaty</h3>
+                        <p>Popis</p>
+                    </a>
+
+                    <a href="carousel/historieKrusnychHor.html" class="carousel-card">
+                        <img src="img/KrusneHory.jpg" alt="Historie Krušných hor" />
+                        <h3>Historie Krušných hor</h3>
+                        <p>Popis</p>
+                    </a>
+
+                    <a href="carousel/bajneBytosti.html" class="carousel-card">
+                        <img src="img/marzebilla.jpg" alt="Bájné bytosti" />
+                        <h3>Bájné bytosti Krušných hor</h3>
+                        <p>Popis</p>
+                    </a>
+
+                    <a href="carousel/remesla.html" class="carousel-card">
+                        <img src="img/remesla.jpg" alt="Krušnohorská řemesla" />
+                        <h3>Krušnohorská řemesla</h3>
+                        <p>Popis</p>
+                    </a>
+                </div>
+
+                <button class="carousel-arrow right" aria-label="Další" onclick="moveCarousel(1)">&#10095;</button>
             </div>
         </section>
     </main>
@@ -65,5 +140,7 @@
         <p>🖂 penzion.smideberk@seznam.cz</p>
         <p>&copy; 2025 Penzion Šmídeberk | Všechna práva vyhrazena</p>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

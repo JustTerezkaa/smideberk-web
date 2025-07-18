@@ -2,68 +2,92 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>Penzion Šmídeberk - apartmány</title>
-    <!--<link rel="stylesheet" href="css/style.css" />-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    <header>
-        <h1>Penzion Šmídeberk</h1>
-        <div class="logo">
-            <img src="img/logo.svg" alt="Penzion Šmídeberk" />
-        </div>
-        <nav>
-            <a href="index.html">Domů</a>
-            <a href="apartman.html">Apartmány</a>
-            <a href="okoli.html">Okolí</a>
-            <a href="galerie.html">Fotogalerie</a>
-            <a href="kontakt.html">Kontakt</a>
-        </nav>
-    </header>
-
-    <div class="sidebar">
-        <nav>
-            <ul>
-                <li><a href="#apartment1">Apartmán 1</a></li>
-                <li><a href="#apartment2">Apartmán 2</a></li>
-                <li><a href="#apartment3">Apartmán 3</a></li>
+<header class="header">
+    <div class="header-container">
+        <nav class="header-nav">
+            <h1>
+                <a href="index.html" class="logo">
+                    <img src="./img/logo.svg" alt=""/>
+                    Penzion Šmídeberk
+                </a>
+            </h1>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Domů</a>
+                </li>
+                <li class="nav-item">
+                    <a href="apartman.html" class="nav-link">Apartmány</a>
+                </li>
+                <li class="nav-item">
+                    <a href="okoli.html" class="nav-link">Okolí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galerie.html" class="nav-link">Fotogalerie</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
             </ul>
         </nav>
     </div>
+</header>
 
-    <main>
+    <div class="content-wrapper">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#apartment1">Apartmán 1</a></li>
+                    <li><a href="#apartment2">Apartmán 2</a></li>
+                    <li><a href="#apartment3">Apartmán 3</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-        <h2> Nabídka Pokojů:</h2>
-        <section class="apartment" id="apartment1">
-            <h3>modrý apartmán</h3>
-            <p>
-                Tento největší apartmán laděný do modré barvy má dvě ložnice a je určen pro čtyři osoby.
-                Najdete zde wc a sprchový kout. K dispozici je wi-fi a plně zařízená kuchyňská linka včetně lednice.</p>
-            <p>Kapacita: jedna manželská a dvě jednolůžkové postele</p>
-            <p>Cena apartmánu na noc: </p>
-            <img src="img/apartman1.jpg" alt="apartman1" class=""/>
-        </section>
+        <main>
+            <h2> Nabídka Pokojů:</h2>
+            <section class="" id="apartment1">
+                <h3>Modrý apartmán</h3>
+                <p>
+                    Tento největší apartmán laděný do modré barvy má dvě ložnice a je určen pro čtyři osoby.
+                    Najdete zde wc a sprchový kout. K dispozici je wi-fi a plně zařízená kuchyňská linka včetně lednice.</p>
+                <p>Kapacita: jedna manželská a dvě jednolůžkové postele</p>
+                <p>Cena apartmánu na noc: </p>
+                <img src="img/apartman1.jpg" alt="apartman1" class=""/>
+            </section>
 
-        <section class="apartment" id="apartment2">
-            <h3>červený apartmán</h3>
-            <p>
-                Červený apartmán má dvě menší ložnice a je určen pro čtyři osoby. Součástí je wc, sprchový a kuchyňský kout s lednicí a také wi-fi.
-            </p>
-            <p>Kapacita: čtyři jednolůžkové postele</p>
-            <p>Cena:</p>
-            <img src="img/apartman2.jpg" alt="apartman2" class=""/>
-        </section>
+            <section class="" id="apartment2">
+                <h3>Červený apartmán</h3>
+                <p>
+                    Červený apartmán má dvě menší ložnice a je určen pro čtyři osoby. Součástí je wc, sprchový a kuchyňský kout s lednicí a také wi-fi.
+                </p>
+                <p>Kapacita: čtyři jednolůžkové postele</p>
+                <p>Cena:</p>
+                <img src="img/apartman2.jpg" alt="apartman2" class=""/>
+            </section>
 
-        <section class="apartment" id="apartment3">
-            <h3>žlutý apartmán</h3>
-            <p>
-                Nejmenší apartmán situovaný na východní stranu má pouze jednu ložnici pro dvě osoby
-                s výhledem na louku a les, wc, sprchový a kuchyňský kout s lednicí a wi-fi.
-            </p>
-            <p>Kapacita: manželská postel</p>
-            <p>Cena: </p>
-            <img src="img/apartman3.jpg" alt="apartman3" class=""/>
-        </section>
-    </main>
+            <section class="" id="apartment3">
+                <h3>Žlutý apartmán</h3>
+                <p>
+                    Nejmenší apartmán situovaný na východní stranu má pouze jednu ložnici pro dvě osoby
+                    s výhledem na louku a les, wc, sprchový a kuchyňský kout s lednicí a wi-fi.
+                </p>
+                <p>Kapacita: manželská postel</p>
+                <p>Cena: </p>
+                <img src="img/apartman3.jpg" alt="apartman3" class=""/>
+            </section>
+        </main>
+    </div>
 
     <footer>
         <address>Dlouhá 126, Kovářská 431 86</address>
