@@ -10,14 +10,15 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-container">
+        <div class="header-container">        </div>
+        <h1>
+            <a href="index.html" class="logo">
+                <img src="./img/logo.svg" alt=""/>
+                Penzion Šmídeberk
+            </a>
+        </h1>
             <nav class="header-nav">
-                <h1>
-                    <a href="index.html" class="logo">
-                        <img src="./img/logo.svg" alt=""/>
-                        Penzion Šmídeberk
-                    </a>
-                </h1>
+
                 <div class="hamburger-menu">
                     <i class="fas fa-bars"></i>
                     <i class="fas fa-times"></i>
@@ -40,21 +41,21 @@
                     </li>
                 </ul>
             </nav>
-        </div>
+
     </header>
 
     <main>
         <div class="hero-image">
-          <img src="img/penzion.jpg" alt="Penzion v horách" class=""/>  <!---->
+          <img src="img/penzion/penzion.jpg" alt="Penzion v horách" class=""/>  <!---->
         </div>
 
         <section class="hero">
             <p>
                 Vítejte.<br>
                 Jsme rodinný penzion v Krušných horách a nabízíme tři apartmány k pronajmutí s celkovou kapacitou deseti osob.
-                Naleznete nás v Kovářské, v nadmořské výšce 800 metrů. Historie domu sahá až do 18.století a v minulých letech sloužil jako podniková chata.
+                Naleznete nás v Kovářské, v nadmořské výšce 800 metrů. Historie domu sahá až do 18. století a v minulých letech sloužil jako podniková chata.
                 Po rozsáhlých opravách a úpravách zde byly vybudovány apartmány s nádechem starých časů. V nich nenaleznete TV, ale množství knih pro zkrácení
-                nejen zimních večerů. Parkování je možné na přilehlém soukromém pozemku. Penzion není určen pro domácí mazlíčky.
+                nejen zimních večerů. Parkování pro hosty penzionu je možné na přilehlém soukromém pozemku. Penzion není určen pro domácí mazlíčky.
             </p>
         </section>
 
@@ -68,7 +69,7 @@
                         <p>Náš největší apartmán má dvě ložnice a je určen pro čtyři osoby.</p>
                     </div>
                     <div class="apartment-image">
-                        <img src="img/apartman1.jpg" alt="Apartmán 1 - modrý" />
+                        <img src="img/apartman1/pokoj1.jpg" alt="Apartmán 1 - modrý" />
                     </div>
                 </div>
             </article>
@@ -80,7 +81,7 @@
                         <p>Náš červený apartmán má dvě menší ložnice po dvou oddělených postelích a je určen pro čtyři osoby.</p>
                     </div>
                     <div class="apartment-image">
-                        <img src="img/apartman2.jpg" alt="Apartmán 2 - červený" />
+                        <img src="img/apartman2/pokoj1.jpg" alt="Apartmán 2 - červený" />
                     </div>
                 </div>
             </article>
@@ -92,7 +93,7 @@
                         <p>Náš nejmenší pokoj má pouze jednu ložnici s manželskou postelí pro dvě osoby.</p>
                     </div>
                     <div class="apartment-image">
-                        <img src="img/apartman3.jpg" alt="Apartmán 3 - žlutý" />
+                        <img src="img/apartman3/pokoj1.jpg" alt="Apartmán 3 - žlutý" />
                     </div>
                 </div>
             </article>
@@ -105,25 +106,33 @@
 
                 <div class="carousel-track">
                     <a href="carousel/historieChaty.html" class="carousel-card">
-                        <img src="img/chata.jpg" alt="Historie Chaty" />
+                        <div class="carousel-image">
+                            <img src="img/penzion/penzion.jpg" alt="Historie Chaty" />
+                        </div>
                         <h3>Historie Chaty</h3>
                         <p>Popis</p>
                     </a>
 
                     <a href="carousel/historieKrusnychHor.html" class="carousel-card">
-                        <img src="img/KrusneHory.jpg" alt="Historie Krušných hor" />
+                        <div class="carousel-image">
+                            <img src="img/KrusneHory.jpg" alt="Historie Krušných hor" />
+                        </div>
                         <h3>Historie Krušných hor</h3>
                         <p>Popis</p>
                     </a>
 
                     <a href="carousel/bajneBytosti.html" class="carousel-card">
-                        <img src="img/marzebilla.jpg" alt="Bájné bytosti" />
+                        <div class="carousel-image">
+                            <img src="img/penzion/penzion.jpg" alt="Bájné bytosti" />
+                        </div>
                         <h3>Bájné bytosti Krušných hor</h3>
-                        <p>Popis</p>
+                        <p>Krušné hory se svou krajinou a historií jsou přímo stvořeny k nepřeberným množstvím pověstí, pohádek a vyprávění... </p>
                     </a>
 
                     <a href="carousel/remesla.html" class="carousel-card">
-                        <img src="img/remesla.jpg" alt="Krušnohorská řemesla" />
+                        <div class="carousel-image">
+                            <img src="img/remesla.jpg" alt="Krušnohorská řemesla" />
+                        </div>
                         <h3>Krušnohorská řemesla</h3>
                         <p>Popis</p>
                     </a>

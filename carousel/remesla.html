@@ -2,23 +2,46 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>Penzion Šmídeberk - zaniklá řemesla</title>
-    <link rel="stylesheet" href="../css/style.css" /><!---->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-    <body>
-    <header>
-        <h1>penzion Šmídeberk</h1>
-        <div class="logo">
-            <img src="/img/logo.svg" alt="Penzion Šmídeberk" />
-        </div>
-        <nav>
-            <a href="../index.html">Domů</a>
-            <a href="../apartman.html">Apartmány</a>
-            <a href="../okoli.html">Okolí</a>
-            <a href="../galerie.html">Fotogalerie</a>
-            <a href="../kontakt.html">Kontakt</a>
+<body>
+<header class="header">
+    <div class="header-container">
+        <nav class="header-nav">
+            <h1>
+                <a href="../index.html" class="logo">
+                    <img src="../img/logo.svg" alt=""/>
+                    Penzion Šmídeberk
+                </a>
+            </h1>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Domů</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../apartman.html" class="nav-link">Apartmány</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../okoli.html" class="nav-link">Okolí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../galerie.html" class="nav-link">Fotogalerie</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+            </ul>
         </nav>
-    </header>
+    </div>
+</header>
 
     <div class="content-wrapper">
         <aside class="sidebar">
@@ -132,5 +155,8 @@
       <p>🖂 penzion.smideberk@seznam.cz</p>
       <p>&copy; 2025 Penzion Šmídeberk | Všechna práva vyhrazena</p>
     </footer>
+
+    <script src="../js/index.js"></script>
+
 </body>
 </html>
