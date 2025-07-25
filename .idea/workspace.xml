@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dddd66d9-744e-4169-b329-312741e263bd" name="Changes" comment="structure">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smideberk-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="dddd66d9-744e-4169-b329-312741e263bd" name="Changes" comment="css + structure edit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apartman.html" beforeDir="false" afterPath="$PROJECT_DIR$/apartman.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel/bajneBytosti.html" beforeDir="false" afterPath="$PROJECT_DIR$/carousel/bajneBytosti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel/historieChaty.html" beforeDir="false" afterPath="$PROJECT_DIR$/carousel/historieChaty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel/historieKrusnychHor.html" beforeDir="false" afterPath="$PROJECT_DIR$/carousel/historieKrusnychHor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel/remesla.html" beforeDir="false" afterPath="$PROJECT_DIR$/carousel/remesla.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galerie.html" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okoli.html" beforeDir="false" afterPath="$PROJECT_DIR$/okoli.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +88,7 @@
       <workItem from="1752601379267" duration="9031000" />
       <workItem from="1752661878243" duration="17463000" />
       <workItem from="1752771400836" duration="4427000" />
-      <workItem from="1752855009487" duration="10819000" />
+      <workItem from="1752855009487" duration="11164000" />
     </task>
     <task id="LOCAL-00001" summary="structure">
       <option name="closed" value="true" />
@@ -112,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752601663918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="css + structure edit">
+      <option name="closed" value="true" />
+      <created>1752868348929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752868348929</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="structure" />
+    <MESSAGE value="css + structure edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="css + structure edit" />
   </component>
 </project>
